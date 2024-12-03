@@ -11,6 +11,10 @@ Read more about MCP by Anthropic here:
 - [Tools](https://modelcontextprotocol.io/docs/concepts/tools)
 - [Sampling](https://modelcontextprotocol.io/docs/concepts/sampling)
 
+Demo:
+
+![MCP LLM Bridge Demo](assets/output.gif)
+
 ## Quick Start
 
 ```bash

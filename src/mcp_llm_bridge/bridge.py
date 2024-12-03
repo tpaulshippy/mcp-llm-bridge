@@ -29,7 +29,7 @@ handler.setFormatter(colorlog.ColoredFormatter(
 
 logger = colorlog.getLogger(__name__)
 logger.addHandler(handler)
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 
 class MCPLLMBridge:
     """Bridge between MCP protocol and LLM client"""

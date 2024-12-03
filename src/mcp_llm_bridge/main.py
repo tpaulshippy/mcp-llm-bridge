@@ -56,7 +56,7 @@ async def main():
         system_prompt="You are a helpful assistant that can use tools to help answer questions."
     )
     
-    logger.info("Starting bridge test...")
+    logger.info(f"Starting bridge with model: {config.llm_config.model}")
     logger.info(f"Using database at: {db_path}")
     
     # Use bridge with context manager
