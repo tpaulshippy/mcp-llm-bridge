@@ -2,6 +2,13 @@
 
 A bridge connecting Model Context Protocol (MCP) servers to OpenAI-compatible LLMs. Primary support for OpenAI API, with additional compatibility for local endpoints that implement the OpenAI API specification.
 
+Read more about MCP by Anthropic here:
+
+- [Resources](https://modelcontextprotocol.io/docs/concepts/resources)
+- [Prompts](https://modelcontextprotocol.io/docs/concepts/prompts)
+- [Tools](https://modelcontextprotocol.io/docs/concepts/tools)
+- [Sampling](https://modelcontextprotocol.io/docs/concepts/sampling)
+
 ## Quick Start
 
 ```bash
