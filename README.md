@@ -2,6 +2,8 @@
 
 A bridge connecting Model Context Protocol (MCP) servers to OpenAI-compatible LLMs. Primary support for OpenAI API, with additional compatibility for local endpoints that implement the OpenAI API specification.
 
+The implementation provides a bidirectional protocol translation layer between MCP and OpenAI's function-calling interface. It converts MCP tool specifications into OpenAI function schemas and handles the mapping of function invocations back to MCP tool executions. This enables any OpenAI-compatible language model to leverage MCP-compliant tools through a standardized interface, whether using cloud-based models or local implementations like Ollama.
+
 Read more about MCP by Anthropic here:
 
 - [Resources](https://modelcontextprotocol.io/docs/concepts/resources)
@@ -102,7 +104,7 @@ uv pip install -e ".[test]"
 Then run the tests:
 
 ```bash
-python -m pytest tests/
+python -m pytest -v tests/
 ```
 
 ## Contributing
