@@ -43,7 +43,7 @@ OPENAI_MODEL=gpt-4o # or any other OpenAI model that supports tools
 
 Note: reactivate the environment if needed to use the keys in `.env`: `source .venv/bin/activate`
 
-Then configure the bridge in [src/mcp_llm_bridge/config.py](src/mcp_llm_bridge/config.py)
+Then configure the bridge in [src/mcp_llm_bridge/main.py](src/mcp_llm_bridge/main.py)
 
 ```python
 config = BridgeConfig(
