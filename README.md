@@ -50,7 +50,7 @@ config = BridgeConfig(
     ),
     llm_config=LLMConfig(
         api_key=os.getenv("OPENAI_API_KEY"),
-        model=os.getenv("OPENAI_MODEL", "gpt-4"),
+        model=os.getenv("OPENAI_MODEL", "gpt-4o"),
         base_url=None
     )
 )
