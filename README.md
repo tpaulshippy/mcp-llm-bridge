@@ -112,7 +112,7 @@ python -m pytest -v tests/
 ```
 ## License
 
-![MIT](LICENSE.md)
+[MIT](LICENSE.md)
 
 ## Contributing
 
