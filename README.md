@@ -110,6 +110,9 @@ Then run the tests:
 ```bash
 python -m pytest -v tests/
 ```
+## License
+
+![MIT](LICENSE.md)
 
 ## Contributing
 
