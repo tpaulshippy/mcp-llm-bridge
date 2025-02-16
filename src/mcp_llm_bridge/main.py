@@ -39,8 +39,8 @@ async def main():
     # Configure bridge
     config = BridgeConfig(
         mcp_server_params=StdioServerParameters(
-            command="uvx",
-            args=["mcp-server-sqlite", "--db-path", db_path],
+            command="npx",
+            args=["-y", "@modelcontextprotocol/server-filesystem", "/Users/paulshippy/Dev"],
             env=None
         ),
         # llm_config=LLMConfig(
@@ -50,8 +50,8 @@ async def main():
         # ),
         llm_config=LLMConfig(
             api_key="ollama",  # Can be any string for local testing
-            model="mistral-nemo:12b-instruct-2407-q8_0",
-            base_url="http://192.168.87.34:11434/v1"  # Point to your local model's endpoint
+            model="llama3.2",
+            base_url="http://localhost:11434/v1"  # Point to your local model's endpoint
         ),
         system_prompt="You are a helpful assistant that can use tools to help answer questions."
     )
